@@ -11,6 +11,10 @@
 		296D48882E311F6A0028419F /* HelloWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D48872E311F6A0028419F /* HelloWidgetView.swift */; };
 		296D488A2E3121EB0028419F /* HelloWidgetTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D48892E3121EB0028419F /* HelloWidgetTimelineProvider.swift */; };
 		296D488C2E31270F0028419F /* HelloStaticWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D488B2E31270F0028419F /* HelloStaticWidget.swift */; };
+		296D488F2E312CE70028419F /* TodayWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D488E2E312CE70028419F /* TodayWidgetEntry.swift */; };
+		296D48912E312D2E0028419F /* TodayWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D48902E312D2E0028419F /* TodayWidgetProvider.swift */; };
+		296D48932E312E950028419F /* TodayWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D48922E312E950028419F /* TodayWidgetView.swift */; };
+		296D48952E312FDB0028419F /* TodayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D48942E312FDB0028419F /* TodayWidget.swift */; };
 		29C38DA72E30A4DC009B5AC7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C38DA62E30A4DC009B5AC7 /* WidgetKit.framework */; };
 		29C38DA92E30A4DC009B5AC7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C38DA82E30A4DC009B5AC7 /* SwiftUI.framework */; };
 		29C38DB42E30A4DC009B5AC7 /* DevWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 29C38DA42E30A4DC009B5AC7 /* DevWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -45,6 +49,10 @@
 		296D48872E311F6A0028419F /* HelloWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWidgetView.swift; sourceTree = "<group>"; };
 		296D48892E3121EB0028419F /* HelloWidgetTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWidgetTimelineProvider.swift; sourceTree = "<group>"; };
 		296D488B2E31270F0028419F /* HelloStaticWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloStaticWidget.swift; sourceTree = "<group>"; };
+		296D488E2E312CE70028419F /* TodayWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidgetEntry.swift; sourceTree = "<group>"; };
+		296D48902E312D2E0028419F /* TodayWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidgetProvider.swift; sourceTree = "<group>"; };
+		296D48922E312E950028419F /* TodayWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidgetView.swift; sourceTree = "<group>"; };
+		296D48942E312FDB0028419F /* TodayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidget.swift; sourceTree = "<group>"; };
 		29C38D8F2E30A461009B5AC7 /* master.widgetkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = master.widgetkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C38DA42E30A4DC009B5AC7 /* DevWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C38DA62E30A4DC009B5AC7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -108,9 +116,21 @@
 			path = HelloStaticWidget;
 			sourceTree = "<group>";
 		};
+		296D488D2E312C9C0028419F /* TodayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				296D488E2E312CE70028419F /* TodayWidgetEntry.swift */,
+				296D48902E312D2E0028419F /* TodayWidgetProvider.swift */,
+				296D48922E312E950028419F /* TodayWidgetView.swift */,
+				296D48942E312FDB0028419F /* TodayWidget.swift */,
+			);
+			path = TodayWidget;
+			sourceTree = "<group>";
+		};
 		29C38D862E30A461009B5AC7 = {
 			isa = PBXGroup;
 			children = (
+				296D488D2E312C9C0028419F /* TodayWidget */,
 				296D48822E311E560028419F /* HelloStaticWidget */,
 				29C38D912E30A461009B5AC7 /* master.widgetkit */,
 				29C38DAA2E30A4DC009B5AC7 /* DevWidgets */,
@@ -253,8 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296D48932E312E950028419F /* TodayWidgetView.swift in Sources */,
+				296D48952E312FDB0028419F /* TodayWidget.swift in Sources */,
 				296D48842E311E9E0028419F /* HelloWidgetEntry.swift in Sources */,
+				296D488F2E312CE70028419F /* TodayWidgetEntry.swift in Sources */,
 				296D488A2E3121EB0028419F /* HelloWidgetTimelineProvider.swift in Sources */,
+				296D48912E312D2E0028419F /* TodayWidgetProvider.swift in Sources */,
 				296D488C2E31270F0028419F /* HelloStaticWidget.swift in Sources */,
 				296D48882E311F6A0028419F /* HelloWidgetView.swift in Sources */,
 			);
