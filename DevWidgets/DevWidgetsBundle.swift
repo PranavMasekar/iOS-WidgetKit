@@ -13,5 +13,6 @@ struct DevWidgetsBundle: WidgetBundle {
     var body: some Widget {
         HelloStaticWidget()
         TodayWidget()
+        QuoteWidget()
     }
 }
