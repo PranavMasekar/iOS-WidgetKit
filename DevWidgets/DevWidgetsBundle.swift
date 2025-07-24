@@ -14,5 +14,6 @@ struct DevWidgetsBundle: WidgetBundle {
         HelloStaticWidget()
         TodayWidget()
         QuoteWidget()
+        PhotoWidget()
     }
 }
