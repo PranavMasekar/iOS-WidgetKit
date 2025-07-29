@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290D6F0D2E389BB000811D5E /* WorkoutEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D6F0C2E389BB000811D5E /* WorkoutEntry.swift */; };
+		290D6F0F2E389BF300811D5E /* WorkoutTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D6F0E2E389BF300811D5E /* WorkoutTimeLineProvider.swift */; };
+		290D6F112E389D2300811D5E /* WorkoutWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D6F102E389D2300811D5E /* WorkoutWidget.swift */; };
 		295099972E3228EF00BD0406 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295099962E3228EF00BD0406 /* Quote.swift */; };
 		295099992E32295800BD0406 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295099982E32295800BD0406 /* QuoteService.swift */; };
 		2950999B2E322B0F00BD0406 /* QuoteWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950999A2E322B0F00BD0406 /* QuoteWidgetEntry.swift */; };
@@ -67,6 +70,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		290D6F0C2E389BB000811D5E /* WorkoutEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEntry.swift; sourceTree = "<group>"; };
+		290D6F0E2E389BF300811D5E /* WorkoutTimeLineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimeLineProvider.swift; sourceTree = "<group>"; };
+		290D6F102E389D2300811D5E /* WorkoutWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWidget.swift; sourceTree = "<group>"; };
 		295099962E3228EF00BD0406 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		295099982E32295800BD0406 /* QuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteService.swift; sourceTree = "<group>"; };
 		2950999A2E322B0F00BD0406 /* QuoteWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteWidgetEntry.swift; sourceTree = "<group>"; };
@@ -104,6 +110,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		290D6F072E38987900811D5E /* Exceptions for "master.widgetkit" folder in "DevWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				WorkoutTracker/Workout.swift,
+				WorkoutTracker/WorkoutView.swift,
+			);
+			target = 29C38DA32E30A4DC009B5AC7 /* DevWidgetsExtension */;
+		};
 		29C38DB52E30A4DC009B5AC7 /* Exceptions for "DevWidgets" folder in "DevWidgetsExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -116,6 +130,9 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		29C38D912E30A461009B5AC7 /* master.widgetkit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				290D6F072E38987900811D5E /* Exceptions for "master.widgetkit" folder in "DevWidgetsExtension" target */,
+			);
 			path = master.widgetkit;
 			sourceTree = "<group>";
 		};
@@ -149,6 +166,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290D6F0B2E389B6E00811D5E /* WorkoutWidget */ = {
+			isa = PBXGroup;
+			children = (
+				290D6F0C2E389BB000811D5E /* WorkoutEntry.swift */,
+				290D6F0E2E389BF300811D5E /* WorkoutTimeLineProvider.swift */,
+				290D6F102E389D2300811D5E /* WorkoutWidget.swift */,
+			);
+			path = WorkoutWidget;
+			sourceTree = "<group>";
+		};
 		295099952E32289600BD0406 /* QuotesWidget */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +244,7 @@
 		29C38D862E30A461009B5AC7 = {
 			isa = PBXGroup;
 			children = (
+				290D6F0B2E389B6E00811D5E /* WorkoutWidget */,
 				298F43C22E3626A70087F4DC /* WeatherWidget */,
 				295099A22E3233EF00BD0406 /* PhotoWidget */,
 				295099952E32289600BD0406 /* QuotesWidget */,
@@ -364,13 +392,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2950999D2E322B3E00BD0406 /* QuoteTimeLineProvider.swift in Sources */,
+				290D6F0F2E389BF300811D5E /* WorkoutTimeLineProvider.swift in Sources */,
 				29AE47162E378A4900868031 /* WeatherWidgetView.swift in Sources */,
 				298F43D22E362ADA0087F4DC /* WeatherConstants.swift in Sources */,
 				298F43CE2E36276C0087F4DC /* WeatherService.swift in Sources */,
 				298F43C82E3626E50087F4DC /* WeatherWidgetEntry.swift in Sources */,
 				296D48932E312E950028419F /* TodayWidgetView.swift in Sources */,
+				290D6F0D2E389BB000811D5E /* WorkoutEntry.swift in Sources */,
 				296D48952E312FDB0028419F /* TodayWidget.swift in Sources */,
 				296D48842E311E9E0028419F /* HelloWidgetEntry.swift in Sources */,
+				290D6F112E389D2300811D5E /* WorkoutWidget.swift in Sources */,
 				296D488F2E312CE70028419F /* TodayWidgetEntry.swift in Sources */,
 				2950999B2E322B0F00BD0406 /* QuoteWidgetEntry.swift in Sources */,
 				29AE47142E3789BA00868031 /* DailyWeatherView.swift in Sources */,

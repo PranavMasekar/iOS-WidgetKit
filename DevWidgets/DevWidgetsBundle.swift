@@ -16,5 +16,6 @@ struct DevWidgetsBundle: WidgetBundle {
         QuoteWidget()
         PhotoWidget()
         WeatherWidget()
+        WorkoutWidget()
     }
 }
