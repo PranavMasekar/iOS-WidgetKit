@@ -55,11 +55,12 @@ struct WorkoutView: View {
                     )
                     .foregroundStyle(by: .value("Day", workout.day))
                     .annotation {
-                        Text("\(workout.minutes) mins")
+                        Text("\(workout.minutes) m")
                             .font(.caption2)
                     }
                 }
             }
+            .chartLegend(.hidden)
         } //:VStack
         .padding()
     }
