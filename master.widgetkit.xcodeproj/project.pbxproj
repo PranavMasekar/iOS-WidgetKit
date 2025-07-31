@@ -42,6 +42,16 @@
 		298F43D02E3629610087F4DC /* WeatherUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F43CF2E3629610087F4DC /* WeatherUtil.swift */; };
 		298F43D22E362ADA0087F4DC /* WeatherConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F43D12E362ADA0087F4DC /* WeatherConstants.swift */; };
 		298F43D42E362CB30087F4DC /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F43D32E362CB30087F4DC /* WeatherView.swift */; };
+		298FFEA52E3B8B880064178A /* ColorSelection.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 298FFEA42E3B8B880064178A /* ColorSelection.intentdefinition */; };
+		298FFEA62E3B8B880064178A /* ColorSelection.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 298FFEA42E3B8B880064178A /* ColorSelection.intentdefinition */; };
+		298FFEAA2E3B8C970064178A /* ColorEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FFEA92E3B8C970064178A /* ColorEntry.swift */; };
+		298FFEAB2E3B8C970064178A /* ColorEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FFEA92E3B8C970064178A /* ColorEntry.swift */; };
+		298FFEAD2E3B8CDE0064178A /* ColorWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FFEAC2E3B8CDE0064178A /* ColorWidgetView.swift */; };
+		298FFEAE2E3B8CDE0064178A /* ColorWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FFEAC2E3B8CDE0064178A /* ColorWidgetView.swift */; };
+		298FFEB02E3B8DAB0064178A /* ColorWidgetTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FFEAF2E3B8DAB0064178A /* ColorWidgetTimeLineProvider.swift */; };
+		298FFEB12E3B8DAB0064178A /* ColorWidgetTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FFEAF2E3B8DAB0064178A /* ColorWidgetTimeLineProvider.swift */; };
+		298FFEB32E3B8E4B0064178A /* ColorWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FFEB22E3B8E4B0064178A /* ColorWidget.swift */; };
+		298FFEB42E3B8E4B0064178A /* ColorWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FFEB22E3B8E4B0064178A /* ColorWidget.swift */; };
 		29AE47142E3789BA00868031 /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE47132E3789BA00868031 /* DailyWeatherView.swift */; };
 		29AE47162E378A4900868031 /* WeatherWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE47152E378A4900868031 /* WeatherWidgetView.swift */; };
 		29C38DA72E30A4DC009B5AC7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C38DA62E30A4DC009B5AC7 /* WidgetKit.framework */; };
@@ -114,6 +124,11 @@
 		298F43CF2E3629610087F4DC /* WeatherUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUtil.swift; sourceTree = "<group>"; };
 		298F43D12E362ADA0087F4DC /* WeatherConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherConstants.swift; sourceTree = "<group>"; };
 		298F43D32E362CB30087F4DC /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		298FFEA42E3B8B880064178A /* ColorSelection.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = ColorSelection.intentdefinition; sourceTree = "<group>"; };
+		298FFEA92E3B8C970064178A /* ColorEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEntry.swift; sourceTree = "<group>"; };
+		298FFEAC2E3B8CDE0064178A /* ColorWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWidgetView.swift; sourceTree = "<group>"; };
+		298FFEAF2E3B8DAB0064178A /* ColorWidgetTimeLineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWidgetTimeLineProvider.swift; sourceTree = "<group>"; };
+		298FFEB22E3B8E4B0064178A /* ColorWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWidget.swift; sourceTree = "<group>"; };
 		29AE47132E3789BA00868031 /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
 		29AE47152E378A4900868031 /* WeatherWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetView.swift; sourceTree = "<group>"; };
 		29C38D8F2E30A461009B5AC7 /* master.widgetkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = master.widgetkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +156,13 @@
 			);
 			target = 29C38DA32E30A4DC009B5AC7 /* DevWidgetsExtension */;
 		};
+		298FFEA82E3B8B9A0064178A /* Exceptions for "master.widgetkit" folder in "master.widgetkit" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"master-widgetkit-Info.plist",
+			);
+			target = 29C38D8E2E30A461009B5AC7 /* master.widgetkit */;
+		};
 		29C38DB52E30A4DC009B5AC7 /* Exceptions for "DevWidgets" folder in "DevWidgetsExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -154,6 +176,7 @@
 		29C38D912E30A461009B5AC7 /* master.widgetkit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				298FFEA82E3B8B9A0064178A /* Exceptions for "master.widgetkit" folder in "master.widgetkit" target */,
 				290D6F072E38987900811D5E /* Exceptions for "master.widgetkit" folder in "DevWidgetsExtension" target */,
 			);
 			path = master.widgetkit;
@@ -275,9 +298,22 @@
 			path = WeatherWidget;
 			sourceTree = "<group>";
 		};
+		298FFEA32E3B8B510064178A /* ColorWidget */ = {
+			isa = PBXGroup;
+			children = (
+				298FFEA42E3B8B880064178A /* ColorSelection.intentdefinition */,
+				298FFEA92E3B8C970064178A /* ColorEntry.swift */,
+				298FFEAC2E3B8CDE0064178A /* ColorWidgetView.swift */,
+				298FFEAF2E3B8DAB0064178A /* ColorWidgetTimeLineProvider.swift */,
+				298FFEB22E3B8E4B0064178A /* ColorWidget.swift */,
+			);
+			path = ColorWidget;
+			sourceTree = "<group>";
+		};
 		29C38D862E30A461009B5AC7 = {
 			isa = PBXGroup;
 			children = (
+				298FFEA32E3B8B510064178A /* ColorWidget */,
 				29E945522E3B721B00AAD5A9 /* GroceryWidget */,
 				2944E0C12E39DF1F00317537 /* RemindersWidget */,
 				2944E0B82E39DB3000317537 /* DevWidgetsExtension.entitlements */,
@@ -432,6 +468,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298FFEB32E3B8E4B0064178A /* ColorWidget.swift in Sources */,
+				298FFEB12E3B8DAB0064178A /* ColorWidgetTimeLineProvider.swift in Sources */,
+				298FFEAB2E3B8C970064178A /* ColorEntry.swift in Sources */,
+				298FFEA52E3B8B880064178A /* ColorSelection.intentdefinition in Sources */,
+				298FFEAD2E3B8CDE0064178A /* ColorWidgetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,11 +482,13 @@
 			files = (
 				2950999D2E322B3E00BD0406 /* QuoteTimeLineProvider.swift in Sources */,
 				2944E0C72E39E03100317537 /* ReminderTimelineProvider.swift in Sources */,
+				298FFEAA2E3B8C970064178A /* ColorEntry.swift in Sources */,
 				290D6F0F2E389BF300811D5E /* WorkoutTimeLineProvider.swift in Sources */,
 				29AE47162E378A4900868031 /* WeatherWidgetView.swift in Sources */,
 				298F43D22E362ADA0087F4DC /* WeatherConstants.swift in Sources */,
 				298F43CE2E36276C0087F4DC /* WeatherService.swift in Sources */,
 				298F43C82E3626E50087F4DC /* WeatherWidgetEntry.swift in Sources */,
+				298FFEA62E3B8B880064178A /* ColorSelection.intentdefinition in Sources */,
 				296D48932E312E950028419F /* TodayWidgetView.swift in Sources */,
 				290D6F0D2E389BB000811D5E /* WorkoutEntry.swift in Sources */,
 				2944E0C92E39E0AC00317537 /* ReminderWidget.swift in Sources */,
@@ -466,6 +509,7 @@
 				296D488A2E3121EB0028419F /* HelloWidgetTimelineProvider.swift in Sources */,
 				296D48912E312D2E0028419F /* TodayWidgetProvider.swift in Sources */,
 				296D488C2E31270F0028419F /* HelloStaticWidget.swift in Sources */,
+				298FFEB42E3B8E4B0064178A /* ColorWidget.swift in Sources */,
 				298F43D42E362CB30087F4DC /* WeatherView.swift in Sources */,
 				29E9455A2E3B757600AAD5A9 /* GroceryWidget.swift in Sources */,
 				296D48882E311F6A0028419F /* HelloWidgetView.swift in Sources */,
@@ -478,6 +522,8 @@
 				295099972E3228EF00BD0406 /* Quote.swift in Sources */,
 				298F43C42E3626CB0087F4DC /* WeatherTimeLineEntry.swift in Sources */,
 				295099A42E32341E00BD0406 /* PhotoWidgetEntry.swift in Sources */,
+				298FFEB02E3B8DAB0064178A /* ColorWidgetTimeLineProvider.swift in Sources */,
+				298FFEAE2E3B8CDE0064178A /* ColorWidgetView.swift in Sources */,
 				295099A12E322DEE00BD0406 /* QuoteWidget.swift in Sources */,
 				2950999F2E322D1B00BD0406 /* QuoteWidgetView.swift in Sources */,
 			);
@@ -625,6 +671,7 @@
 				DEVELOPMENT_TEAM = L574JWL2Z6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "master-widgetkit-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -655,6 +702,7 @@
 				DEVELOPMENT_TEAM = L574JWL2Z6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "master-widgetkit-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

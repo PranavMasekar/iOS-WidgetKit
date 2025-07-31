@@ -19,5 +19,6 @@ struct DevWidgetsBundle: WidgetBundle {
         WorkoutWidget()
         ReminderWidget()
         GroceryWidget()
+        ColorWidget()
     }
 }
