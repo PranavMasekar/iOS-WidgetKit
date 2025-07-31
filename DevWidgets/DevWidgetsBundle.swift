@@ -18,5 +18,6 @@ struct DevWidgetsBundle: WidgetBundle {
         WeatherWidget()
         WorkoutWidget()
         ReminderWidget()
+        GroceryWidget()
     }
 }

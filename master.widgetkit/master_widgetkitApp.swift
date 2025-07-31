@@ -10,8 +10,12 @@ import SwiftUI
 @main
 struct master_widgetkitApp: App {
     var body: some Scene {
+        
+        let managedContext = CoreDataManager.shared.managedObjectContext
+        
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, managedContext)
         }
     }
 }

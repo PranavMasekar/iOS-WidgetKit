@@ -47,6 +47,10 @@
 		29C38DA72E30A4DC009B5AC7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C38DA62E30A4DC009B5AC7 /* WidgetKit.framework */; };
 		29C38DA92E30A4DC009B5AC7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C38DA82E30A4DC009B5AC7 /* SwiftUI.framework */; };
 		29C38DB42E30A4DC009B5AC7 /* DevWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 29C38DA42E30A4DC009B5AC7 /* DevWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		29E945542E3B724700AAD5A9 /* GroceryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E945532E3B724700AAD5A9 /* GroceryEntry.swift */; };
+		29E945562E3B730000AAD5A9 /* GroceryEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E945552E3B730000AAD5A9 /* GroceryEntryView.swift */; };
+		29E945582E3B745300AAD5A9 /* GroceryTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E945572E3B745300AAD5A9 /* GroceryTimeLineProvider.swift */; };
+		29E9455A2E3B757600AAD5A9 /* GroceryWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E945592E3B757600AAD5A9 /* GroceryWidget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,12 +120,21 @@
 		29C38DA42E30A4DC009B5AC7 /* DevWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C38DA62E30A4DC009B5AC7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		29C38DA82E30A4DC009B5AC7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		29E945532E3B724700AAD5A9 /* GroceryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryEntry.swift; sourceTree = "<group>"; };
+		29E945552E3B730000AAD5A9 /* GroceryEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryEntryView.swift; sourceTree = "<group>"; };
+		29E945572E3B745300AAD5A9 /* GroceryTimeLineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryTimeLineProvider.swift; sourceTree = "<group>"; };
+		29E945592E3B757600AAD5A9 /* GroceryWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		290D6F072E38987900811D5E /* Exceptions for "master.widgetkit" folder in "DevWidgetsExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Grocery/Colors+extensions.swift",
+				Grocery/CoreDataManager.swift,
+				Grocery/Grocery.xcdatamodeld,
+				Grocery/GroceryConstants.swift,
+				Grocery/GroceryView.swift,
 				RemindersApp/RemindersConstants.swift,
 				WorkoutTracker/Workout.swift,
 				WorkoutTracker/WorkoutView.swift,
@@ -265,6 +278,7 @@
 		29C38D862E30A461009B5AC7 = {
 			isa = PBXGroup;
 			children = (
+				29E945522E3B721B00AAD5A9 /* GroceryWidget */,
 				2944E0C12E39DF1F00317537 /* RemindersWidget */,
 				2944E0B82E39DB3000317537 /* DevWidgetsExtension.entitlements */,
 				290D6F0B2E389B6E00811D5E /* WorkoutWidget */,
@@ -296,6 +310,17 @@
 				29C38DA82E30A4DC009B5AC7 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29E945522E3B721B00AAD5A9 /* GroceryWidget */ = {
+			isa = PBXGroup;
+			children = (
+				29E945532E3B724700AAD5A9 /* GroceryEntry.swift */,
+				29E945552E3B730000AAD5A9 /* GroceryEntryView.swift */,
+				29E945572E3B745300AAD5A9 /* GroceryTimeLineProvider.swift */,
+				29E945592E3B757600AAD5A9 /* GroceryWidget.swift */,
+			);
+			path = GroceryWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,12 +458,16 @@
 				29AE47142E3789BA00868031 /* DailyWeatherView.swift in Sources */,
 				2944E0C32E39DF4D00317537 /* ReminderWidgetEntry.swift in Sources */,
 				295099992E32295800BD0406 /* QuoteService.swift in Sources */,
+				29E945582E3B745300AAD5A9 /* GroceryTimeLineProvider.swift in Sources */,
 				295099A62E32349500BD0406 /* NetworkImageView.swift in Sources */,
 				295099AA2E3235B100BD0406 /* PhotoWidgetTimeLineProvider.swift in Sources */,
+				29E945562E3B730000AAD5A9 /* GroceryEntryView.swift in Sources */,
+				29E945542E3B724700AAD5A9 /* GroceryEntry.swift in Sources */,
 				296D488A2E3121EB0028419F /* HelloWidgetTimelineProvider.swift in Sources */,
 				296D48912E312D2E0028419F /* TodayWidgetProvider.swift in Sources */,
 				296D488C2E31270F0028419F /* HelloStaticWidget.swift in Sources */,
 				298F43D42E362CB30087F4DC /* WeatherView.swift in Sources */,
+				29E9455A2E3B757600AAD5A9 /* GroceryWidget.swift in Sources */,
 				296D48882E311F6A0028419F /* HelloWidgetView.swift in Sources */,
 				298F43CA2E3626F80087F4DC /* Weather.swift in Sources */,
 				298F43C62E3626D50087F4DC /* WeatherWidget.swift in Sources */,
