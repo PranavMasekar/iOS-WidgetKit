@@ -5,6 +5,7 @@
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>ColorSelectionIntentIntent</string>
+		<string>MonthlyExpenseIntent</string>
 	</array>
 </dict>
 </plist>

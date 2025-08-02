@@ -10,6 +10,20 @@
 		290D6F0D2E389BB000811D5E /* WorkoutEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D6F0C2E389BB000811D5E /* WorkoutEntry.swift */; };
 		290D6F0F2E389BF300811D5E /* WorkoutTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D6F0E2E389BF300811D5E /* WorkoutTimeLineProvider.swift */; };
 		290D6F112E389D2300811D5E /* WorkoutWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D6F102E389D2300811D5E /* WorkoutWidget.swift */; };
+		2911B7D52E3DCF9C00EE1E00 /* Expense.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7D42E3DCF9C00EE1E00 /* Expense.intentdefinition */; };
+		2911B7D62E3DCF9C00EE1E00 /* Expense.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7D42E3DCF9C00EE1E00 /* Expense.intentdefinition */; };
+		2911B7D82E3DD09E00EE1E00 /* ExpenseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7D72E3DD09E00EE1E00 /* ExpenseCategory.swift */; };
+		2911B7D92E3DD09E00EE1E00 /* ExpenseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7D72E3DD09E00EE1E00 /* ExpenseCategory.swift */; };
+		2911B7DB2E3DD13E00EE1E00 /* ExpenseEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7DA2E3DD13E00EE1E00 /* ExpenseEntry.swift */; };
+		2911B7DC2E3DD13E00EE1E00 /* ExpenseEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7DA2E3DD13E00EE1E00 /* ExpenseEntry.swift */; };
+		2911B7DE2E3DD1C400EE1E00 /* ExpenseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7DD2E3DD1C400EE1E00 /* ExpenseItemView.swift */; };
+		2911B7DF2E3DD1C400EE1E00 /* ExpenseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7DD2E3DD1C400EE1E00 /* ExpenseItemView.swift */; };
+		2911B7E12E3DD3B000EE1E00 /* ExpenseWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7E02E3DD3B000EE1E00 /* ExpenseWidgetView.swift */; };
+		2911B7E22E3DD3B000EE1E00 /* ExpenseWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7E02E3DD3B000EE1E00 /* ExpenseWidgetView.swift */; };
+		2911B7E42E3DD46900EE1E00 /* ExpenseTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7E32E3DD46900EE1E00 /* ExpenseTimeLineProvider.swift */; };
+		2911B7E52E3DD46900EE1E00 /* ExpenseTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7E32E3DD46900EE1E00 /* ExpenseTimeLineProvider.swift */; };
+		2911B7E72E3DD54600EE1E00 /* ExpenseWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7E62E3DD54600EE1E00 /* ExpenseWidget.swift */; };
+		2911B7E82E3DD54600EE1E00 /* ExpenseWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911B7E62E3DD54600EE1E00 /* ExpenseWidget.swift */; };
 		2944E0C32E39DF4D00317537 /* ReminderWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944E0C22E39DF4D00317537 /* ReminderWidgetEntry.swift */; };
 		2944E0C52E39DF9600317537 /* ReminderWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944E0C42E39DF9600317537 /* ReminderWidgetView.swift */; };
 		2944E0C72E39E03100317537 /* ReminderTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944E0C62E39E03100317537 /* ReminderTimelineProvider.swift */; };
@@ -91,6 +105,13 @@
 		290D6F0C2E389BB000811D5E /* WorkoutEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEntry.swift; sourceTree = "<group>"; };
 		290D6F0E2E389BF300811D5E /* WorkoutTimeLineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimeLineProvider.swift; sourceTree = "<group>"; };
 		290D6F102E389D2300811D5E /* WorkoutWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWidget.swift; sourceTree = "<group>"; };
+		2911B7D42E3DCF9C00EE1E00 /* Expense.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Expense.intentdefinition; sourceTree = "<group>"; };
+		2911B7D72E3DD09E00EE1E00 /* ExpenseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategory.swift; sourceTree = "<group>"; };
+		2911B7DA2E3DD13E00EE1E00 /* ExpenseEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseEntry.swift; sourceTree = "<group>"; };
+		2911B7DD2E3DD1C400EE1E00 /* ExpenseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItemView.swift; sourceTree = "<group>"; };
+		2911B7E02E3DD3B000EE1E00 /* ExpenseWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseWidgetView.swift; sourceTree = "<group>"; };
+		2911B7E32E3DD46900EE1E00 /* ExpenseTimeLineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTimeLineProvider.swift; sourceTree = "<group>"; };
+		2911B7E62E3DD54600EE1E00 /* ExpenseWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseWidget.swift; sourceTree = "<group>"; };
 		2944E0B82E39DB3000317537 /* DevWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		2944E0C22E39DF4D00317537 /* ReminderWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderWidgetEntry.swift; sourceTree = "<group>"; };
 		2944E0C42E39DF9600317537 /* ReminderWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderWidgetView.swift; sourceTree = "<group>"; };
@@ -156,13 +177,6 @@
 			);
 			target = 29C38DA32E30A4DC009B5AC7 /* DevWidgetsExtension */;
 		};
-		298FFEA82E3B8B9A0064178A /* Exceptions for "master.widgetkit" folder in "master.widgetkit" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"master-widgetkit-Info.plist",
-			);
-			target = 29C38D8E2E30A461009B5AC7 /* master.widgetkit */;
-		};
 		29C38DB52E30A4DC009B5AC7 /* Exceptions for "DevWidgets" folder in "DevWidgetsExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -176,7 +190,6 @@
 		29C38D912E30A461009B5AC7 /* master.widgetkit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				298FFEA82E3B8B9A0064178A /* Exceptions for "master.widgetkit" folder in "master.widgetkit" target */,
 				290D6F072E38987900811D5E /* Exceptions for "master.widgetkit" folder in "DevWidgetsExtension" target */,
 			);
 			path = master.widgetkit;
@@ -220,6 +233,20 @@
 				290D6F102E389D2300811D5E /* WorkoutWidget.swift */,
 			);
 			path = WorkoutWidget;
+			sourceTree = "<group>";
+		};
+		2911B7D32E3DCF7D00EE1E00 /* ExpenseWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2911B7D42E3DCF9C00EE1E00 /* Expense.intentdefinition */,
+				2911B7D72E3DD09E00EE1E00 /* ExpenseCategory.swift */,
+				2911B7DA2E3DD13E00EE1E00 /* ExpenseEntry.swift */,
+				2911B7DD2E3DD1C400EE1E00 /* ExpenseItemView.swift */,
+				2911B7E02E3DD3B000EE1E00 /* ExpenseWidgetView.swift */,
+				2911B7E32E3DD46900EE1E00 /* ExpenseTimeLineProvider.swift */,
+				2911B7E62E3DD54600EE1E00 /* ExpenseWidget.swift */,
+			);
+			path = ExpenseWidget;
 			sourceTree = "<group>";
 		};
 		2944E0C12E39DF1F00317537 /* RemindersWidget */ = {
@@ -313,6 +340,7 @@
 		29C38D862E30A461009B5AC7 = {
 			isa = PBXGroup;
 			children = (
+				2911B7D32E3DCF7D00EE1E00 /* ExpenseWidget */,
 				298FFEA32E3B8B510064178A /* ColorWidget */,
 				29E945522E3B721B00AAD5A9 /* GroceryWidget */,
 				2944E0C12E39DF1F00317537 /* RemindersWidget */,
@@ -468,9 +496,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2911B7E82E3DD54600EE1E00 /* ExpenseWidget.swift in Sources */,
+				2911B7DC2E3DD13E00EE1E00 /* ExpenseEntry.swift in Sources */,
+				2911B7E42E3DD46900EE1E00 /* ExpenseTimeLineProvider.swift in Sources */,
+				2911B7D82E3DD09E00EE1E00 /* ExpenseCategory.swift in Sources */,
+				2911B7DE2E3DD1C400EE1E00 /* ExpenseItemView.swift in Sources */,
 				298FFEB32E3B8E4B0064178A /* ColorWidget.swift in Sources */,
 				298FFEB12E3B8DAB0064178A /* ColorWidgetTimeLineProvider.swift in Sources */,
 				298FFEAB2E3B8C970064178A /* ColorEntry.swift in Sources */,
+				2911B7D52E3DCF9C00EE1E00 /* Expense.intentdefinition in Sources */,
+				2911B7E22E3DD3B000EE1E00 /* ExpenseWidgetView.swift in Sources */,
 				298FFEA52E3B8B880064178A /* ColorSelection.intentdefinition in Sources */,
 				298FFEAD2E3B8CDE0064178A /* ColorWidgetView.swift in Sources */,
 			);
@@ -480,20 +515,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2911B7E72E3DD54600EE1E00 /* ExpenseWidget.swift in Sources */,
 				2950999D2E322B3E00BD0406 /* QuoteTimeLineProvider.swift in Sources */,
 				2944E0C72E39E03100317537 /* ReminderTimelineProvider.swift in Sources */,
 				298FFEAA2E3B8C970064178A /* ColorEntry.swift in Sources */,
 				290D6F0F2E389BF300811D5E /* WorkoutTimeLineProvider.swift in Sources */,
+				2911B7E52E3DD46900EE1E00 /* ExpenseTimeLineProvider.swift in Sources */,
 				29AE47162E378A4900868031 /* WeatherWidgetView.swift in Sources */,
 				298F43D22E362ADA0087F4DC /* WeatherConstants.swift in Sources */,
 				298F43CE2E36276C0087F4DC /* WeatherService.swift in Sources */,
 				298F43C82E3626E50087F4DC /* WeatherWidgetEntry.swift in Sources */,
+				2911B7DB2E3DD13E00EE1E00 /* ExpenseEntry.swift in Sources */,
 				298FFEA62E3B8B880064178A /* ColorSelection.intentdefinition in Sources */,
 				296D48932E312E950028419F /* TodayWidgetView.swift in Sources */,
 				290D6F0D2E389BB000811D5E /* WorkoutEntry.swift in Sources */,
 				2944E0C92E39E0AC00317537 /* ReminderWidget.swift in Sources */,
 				296D48952E312FDB0028419F /* TodayWidget.swift in Sources */,
 				296D48842E311E9E0028419F /* HelloWidgetEntry.swift in Sources */,
+				2911B7D92E3DD09E00EE1E00 /* ExpenseCategory.swift in Sources */,
 				290D6F112E389D2300811D5E /* WorkoutWidget.swift in Sources */,
 				296D488F2E312CE70028419F /* TodayWidgetEntry.swift in Sources */,
 				2950999B2E322B0F00BD0406 /* QuoteWidgetEntry.swift in Sources */,
@@ -518,13 +557,16 @@
 				295099AC2E32371200BD0406 /* PhotoWidget.swift in Sources */,
 				298F43D02E3629610087F4DC /* WeatherUtil.swift in Sources */,
 				298F43CC2E36273E0087F4DC /* WeatherResponseObject.swift in Sources */,
+				2911B7D62E3DCF9C00EE1E00 /* Expense.intentdefinition in Sources */,
 				295099A82E32354900BD0406 /* PhotoWidgetView.swift in Sources */,
 				295099972E3228EF00BD0406 /* Quote.swift in Sources */,
 				298F43C42E3626CB0087F4DC /* WeatherTimeLineEntry.swift in Sources */,
 				295099A42E32341E00BD0406 /* PhotoWidgetEntry.swift in Sources */,
+				2911B7E12E3DD3B000EE1E00 /* ExpenseWidgetView.swift in Sources */,
 				298FFEB02E3B8DAB0064178A /* ColorWidgetTimeLineProvider.swift in Sources */,
 				298FFEAE2E3B8CDE0064178A /* ColorWidgetView.swift in Sources */,
 				295099A12E322DEE00BD0406 /* QuoteWidget.swift in Sources */,
+				2911B7DF2E3DD1C400EE1E00 /* ExpenseItemView.swift in Sources */,
 				2950999F2E322D1B00BD0406 /* QuoteWidgetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
