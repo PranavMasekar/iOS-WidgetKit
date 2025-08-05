@@ -21,5 +21,6 @@ struct DevWidgetsBundle: WidgetBundle {
         GroceryWidget()
         ColorWidget()
         ExpenseWidget()
+        ExchangeRateWidget()
     }
 }

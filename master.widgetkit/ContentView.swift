@@ -11,7 +11,8 @@ struct ContentView: View {
     var body: some View {
 //        WorkoutView(showLineChart: false)
 //        ReminderView()
-        GroceryView()
+//        GroceryView()
+        ExchangeRateApp()
     }
 }
 
