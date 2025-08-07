@@ -6,6 +6,7 @@
 	<array>
 		<string>ColorSelectionIntentIntent</string>
 		<string>MonthlyExpenseIntent</string>
+		<string>StockConfigurationIntent</string>
 	</array>
 </dict>
 </plist>

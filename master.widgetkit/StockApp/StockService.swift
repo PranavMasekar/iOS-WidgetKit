@@ -26,6 +26,8 @@ struct StockService {
         guard let stock = stocks.first else {
             fatalError("Stock not found")
         }
+        
+        print(stock)
 
         return stock
     }
