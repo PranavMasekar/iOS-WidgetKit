@@ -1,0 +1,59 @@
+//
+//  .gitignore
+//  master.widgetkit
+//
+//  Created by Pranav Masekar on 07/08/25.
+//
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Archives & Generated
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# User-specific settings
+*.swp
+*.swo
+*.env
+
+# Secrets
+Secrets.plist
+
+# Other
+.idea/
+*.DS_Store

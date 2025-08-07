@@ -42,6 +42,10 @@
 		295099AA2E3235B100BD0406 /* PhotoWidgetTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295099A92E3235B100BD0406 /* PhotoWidgetTimeLineProvider.swift */; };
 		295099AC2E32371200BD0406 /* PhotoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295099AB2E32371200BD0406 /* PhotoWidget.swift */; };
 		295699F32E4248F600258151 /* ExchangeRateWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295699F22E4248F600258151 /* ExchangeRateWidget.swift */; };
+		296433542E44AF420006149F /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 296433532E44AF420006149F /* Secrets.plist */; };
+		296433552E44AF420006149F /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 296433532E44AF420006149F /* Secrets.plist */; };
+		2964335B2E44AFCA0006149F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2964335A2E44AFC50006149F /* .gitignore */; };
+		2964335C2E44AFCA0006149F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2964335A2E44AFC50006149F /* .gitignore */; };
 		296D48842E311E9E0028419F /* HelloWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D48832E311E9E0028419F /* HelloWidgetEntry.swift */; };
 		296D48882E311F6A0028419F /* HelloWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D48872E311F6A0028419F /* HelloWidgetView.swift */; };
 		296D488A2E3121EB0028419F /* HelloWidgetTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D48892E3121EB0028419F /* HelloWidgetTimelineProvider.swift */; };
@@ -135,6 +139,8 @@
 		295099A92E3235B100BD0406 /* PhotoWidgetTimeLineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWidgetTimeLineProvider.swift; sourceTree = "<group>"; };
 		295099AB2E32371200BD0406 /* PhotoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWidget.swift; sourceTree = "<group>"; };
 		295699F22E4248F600258151 /* ExchangeRateWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateWidget.swift; sourceTree = "<group>"; };
+		296433532E44AF420006149F /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		2964335A2E44AFC50006149F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		296D48832E311E9E0028419F /* HelloWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWidgetEntry.swift; sourceTree = "<group>"; };
 		296D48872E311F6A0028419F /* HelloWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWidgetView.swift; sourceTree = "<group>"; };
 		296D48892E3121EB0028419F /* HelloWidgetTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWidgetTimelineProvider.swift; sourceTree = "<group>"; };
@@ -186,6 +192,9 @@
 				Grocery/GroceryConstants.swift,
 				Grocery/GroceryView.swift,
 				RemindersApp/RemindersConstants.swift,
+				Secrets.swift,
+				StockApp/Stock.swift,
+				StockApp/StockService.swift,
 				WorkoutTracker/Workout.swift,
 				WorkoutTracker/WorkoutView.swift,
 			);
@@ -354,6 +363,8 @@
 		29C38D862E30A461009B5AC7 = {
 			isa = PBXGroup;
 			children = (
+				2964335A2E44AFC50006149F /* .gitignore */,
+				296433532E44AF420006149F /* Secrets.plist */,
 				29FB037A2E40F8A0000335AD /* ExchangeRateWidget */,
 				2911B7D32E3DCF7D00EE1E00 /* ExpenseWidget */,
 				298FFEA32E3B8B510064178A /* ColorWidget */,
@@ -505,6 +516,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2964335B2E44AFCA0006149F /* .gitignore in Resources */,
+				296433552E44AF420006149F /* Secrets.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +525,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296433542E44AF420006149F /* Secrets.plist in Resources */,
+				2964335C2E44AFCA0006149F /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
