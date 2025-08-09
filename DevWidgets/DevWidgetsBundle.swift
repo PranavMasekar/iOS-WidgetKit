@@ -23,5 +23,6 @@ struct DevWidgetsBundle: WidgetBundle {
         ExpenseWidget()
         ExchangeRateWidget()
         StockWidget()
+        PedometerWidget()
     }
 }
