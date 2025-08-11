@@ -24,5 +24,9 @@ struct DevWidgetsBundle: WidgetBundle {
         ExchangeRateWidget()
         StockWidget()
         PedometerWidget()
+        
+        if #available(iOS 16.1, *) {
+            FocusTimerLiveActivity()
+        }
     }
 }

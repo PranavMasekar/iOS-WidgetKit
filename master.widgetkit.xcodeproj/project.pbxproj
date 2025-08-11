@@ -59,6 +59,8 @@
 		296D48912E312D2E0028419F /* TodayWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D48902E312D2E0028419F /* TodayWidgetProvider.swift */; };
 		296D48932E312E950028419F /* TodayWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D48922E312E950028419F /* TodayWidgetView.swift */; };
 		296D48952E312FDB0028419F /* TodayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D48942E312FDB0028419F /* TodayWidget.swift */; };
+		297606CC2E49F9B900393807 /* FocusTimerEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297606CB2E49F9B900393807 /* FocusTimerEntryView.swift */; };
+		297606CE2E49FA7100393807 /* FocusTimerLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297606CD2E49FA7100393807 /* FocusTimerLiveActivity.swift */; };
 		298F43C42E3626CB0087F4DC /* WeatherTimeLineEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F43C32E3626CB0087F4DC /* WeatherTimeLineEntry.swift */; };
 		298F43C62E3626D50087F4DC /* WeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F43C52E3626D50087F4DC /* WeatherWidget.swift */; };
 		298F43C82E3626E50087F4DC /* WeatherWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298F43C72E3626E50087F4DC /* WeatherWidgetEntry.swift */; };
@@ -181,6 +183,8 @@
 		296D48902E312D2E0028419F /* TodayWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidgetProvider.swift; sourceTree = "<group>"; };
 		296D48922E312E950028419F /* TodayWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidgetView.swift; sourceTree = "<group>"; };
 		296D48942E312FDB0028419F /* TodayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidget.swift; sourceTree = "<group>"; };
+		297606CB2E49F9B900393807 /* FocusTimerEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerEntryView.swift; sourceTree = "<group>"; };
+		297606CD2E49FA7100393807 /* FocusTimerLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerLiveActivity.swift; sourceTree = "<group>"; };
 		298F43C32E3626CB0087F4DC /* WeatherTimeLineEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTimeLineEntry.swift; sourceTree = "<group>"; };
 		298F43C52E3626D50087F4DC /* WeatherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidget.swift; sourceTree = "<group>"; };
 		298F43C72E3626E50087F4DC /* WeatherWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetEntry.swift; sourceTree = "<group>"; };
@@ -226,6 +230,8 @@
 				ExchangeRateApp/ExchangeRate.swift,
 				ExchangeRateApp/ExchangeRateApp.swift,
 				ExchangeRateApp/ExchangeRateService.swift,
+				FocusTimerApp/FocusTimerAppView.swift,
+				FocusTimerApp/FocustTimerAttributes.swift,
 				"Grocery/Colors+extensions.swift",
 				Grocery/CoreDataManager.swift,
 				Grocery/Grocery.xcdatamodeld,
@@ -428,6 +434,15 @@
 			path = TodayWidget;
 			sourceTree = "<group>";
 		};
+		297606C72E49F8B100393807 /* FocusTimerLiveActivity */ = {
+			isa = PBXGroup;
+			children = (
+				297606CB2E49F9B900393807 /* FocusTimerEntryView.swift */,
+				297606CD2E49FA7100393807 /* FocusTimerLiveActivity.swift */,
+			);
+			path = FocusTimerLiveActivity;
+			sourceTree = "<group>";
+		};
 		298F43C22E3626A70087F4DC /* WeatherWidget */ = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +476,7 @@
 		29C38D862E30A461009B5AC7 = {
 			isa = PBXGroup;
 			children = (
+				297606C72E49F8B100393807 /* FocusTimerLiveActivity */,
 				29EC12162E4788F300F17CDE /* PedometerWidget */,
 				296433602E44B3C70006149F /* StocksWidget */,
 				2964335A2E44AFC50006149F /* .gitignore */,
@@ -724,6 +740,7 @@
 				2911B7E72E3DD54600EE1E00 /* ExpenseWidget.swift in Sources */,
 				2950999D2E322B3E00BD0406 /* QuoteTimeLineProvider.swift in Sources */,
 				2944E0C72E39E03100317537 /* ReminderTimelineProvider.swift in Sources */,
+				297606CC2E49F9B900393807 /* FocusTimerEntryView.swift in Sources */,
 				298FFEAA2E3B8C970064178A /* ColorEntry.swift in Sources */,
 				290D6F0F2E389BF300811D5E /* WorkoutTimeLineProvider.swift in Sources */,
 				295699F32E4248F600258151 /* ExchangeRateWidget.swift in Sources */,
@@ -769,6 +786,7 @@
 				29E9455A2E3B757600AAD5A9 /* GroceryWidget.swift in Sources */,
 				296D48882E311F6A0028419F /* HelloWidgetView.swift in Sources */,
 				298F43CA2E3626F80087F4DC /* Weather.swift in Sources */,
+				297606CE2E49FA7100393807 /* FocusTimerLiveActivity.swift in Sources */,
 				298F43C62E3626D50087F4DC /* WeatherWidget.swift in Sources */,
 				295099AC2E32371200BD0406 /* PhotoWidget.swift in Sources */,
 				298F43D02E3629610087F4DC /* WeatherUtil.swift in Sources */,
@@ -989,6 +1007,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "master-widgetkit-Info.plist";
 				INFOPLIST_KEY_NSMotionUsageDescription = "Using motion to count steps";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1021,6 +1040,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "master-widgetkit-Info.plist";
 				INFOPLIST_KEY_NSMotionUsageDescription = "Using motion to count steps";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

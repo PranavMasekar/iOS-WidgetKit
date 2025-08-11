@@ -12,7 +12,8 @@ struct ContentView: View {
 //        WorkoutView(showLineChart: false)
 //        ReminderView()
 //        GroceryView()
-        ExchangeRateApp()
+//        ExchangeRateApp()
+        FocusTimerAppView()
     }
 }
 
