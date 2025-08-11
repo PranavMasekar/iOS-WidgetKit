@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2900BC522E4A387100785543 /* PizzaDeliveryWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2900BC512E4A387100785543 /* PizzaDeliveryWidget.swift */; };
 		290D6F0D2E389BB000811D5E /* WorkoutEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D6F0C2E389BB000811D5E /* WorkoutEntry.swift */; };
 		290D6F0F2E389BF300811D5E /* WorkoutTimeLineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D6F0E2E389BF300811D5E /* WorkoutTimeLineProvider.swift */; };
 		290D6F112E389D2300811D5E /* WorkoutWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D6F102E389D2300811D5E /* WorkoutWidget.swift */; };
@@ -141,6 +142,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2900BC512E4A387100785543 /* PizzaDeliveryWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryWidget.swift; sourceTree = "<group>"; };
 		290D6F0C2E389BB000811D5E /* WorkoutEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEntry.swift; sourceTree = "<group>"; };
 		290D6F0E2E389BF300811D5E /* WorkoutTimeLineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimeLineProvider.swift; sourceTree = "<group>"; };
 		290D6F102E389D2300811D5E /* WorkoutWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWidget.swift; sourceTree = "<group>"; };
@@ -241,6 +243,9 @@
 				Pedometer/PedometerAppConstants.swift,
 				Pedometer/PedometerManager.swift,
 				Pedometer/PedoMeterView.swift,
+				PizzaOrderingApp/PizzaOrderAttributes.swift,
+				PizzaOrderingApp/PizzaOrderView.swift,
+				PizzaOrderingApp/PizzaType.swift,
 				RemindersApp/RemindersConstants.swift,
 				Secrets.swift,
 				StockApp/Stock.swift,
@@ -340,6 +345,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2900BC472E4A2BDD00785543 /* PizzaDeliveryWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2900BC512E4A387100785543 /* PizzaDeliveryWidget.swift */,
+			);
+			path = PizzaDeliveryWidget;
+			sourceTree = "<group>";
+		};
 		290D6F0B2E389B6E00811D5E /* WorkoutWidget */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,6 +489,7 @@
 		29C38D862E30A461009B5AC7 = {
 			isa = PBXGroup;
 			children = (
+				2900BC472E4A2BDD00785543 /* PizzaDeliveryWidget */,
 				297606C72E49F8B100393807 /* FocusTimerLiveActivity */,
 				29EC12162E4788F300F17CDE /* PedometerWidget */,
 				296433602E44B3C70006149F /* StocksWidget */,
@@ -775,6 +789,7 @@
 				29E945582E3B745300AAD5A9 /* GroceryTimeLineProvider.swift in Sources */,
 				295099A62E32349500BD0406 /* NetworkImageView.swift in Sources */,
 				295099AA2E3235B100BD0406 /* PhotoWidgetTimeLineProvider.swift in Sources */,
+				2900BC522E4A387100785543 /* PizzaDeliveryWidget.swift in Sources */,
 				29E945562E3B730000AAD5A9 /* GroceryEntryView.swift in Sources */,
 				29A6DA882E44F500008A7326 /* StockWidgetEntryView.swift in Sources */,
 				29E945542E3B724700AAD5A9 /* GroceryEntry.swift in Sources */,

@@ -22,23 +22,28 @@ struct FocusTimerAppView: View {
             endTime: Date().addingTimeInterval(60 * focusTime)
         )
         
+        let content = ActivityContent(state: state, staleDate: nil)
+
         activity = try? Activity<FocustTimerAttributes>.request(
             attributes: attributes,
-            contentState: state,
+            content: content,
             pushType: nil
         )
         
         timerSet = true
     }
+
     
     private func stopTimer() {
         let state = FocustTimerAttributes.ContentState(endTime: .now)
-        
+        let content = ActivityContent(state: state, staleDate: nil)
+
         Task {
-            await activity?.end(using: state, dismissalPolicy: .immediate)
+            await activity?.end(content, dismissalPolicy: .immediate)
             timerSet = false
         }
     }
+
     
     var body: some View {
         NavigationStack {

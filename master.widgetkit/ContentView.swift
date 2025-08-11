@@ -13,7 +13,8 @@ struct ContentView: View {
 //        ReminderView()
 //        GroceryView()
 //        ExchangeRateApp()
-        FocusTimerAppView()
+//        FocusTimerAppView()
+        PizzaOrderView()
     }
 }
 

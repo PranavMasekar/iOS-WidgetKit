@@ -27,6 +27,7 @@ struct DevWidgetsBundle: WidgetBundle {
         
         if #available(iOS 16.1, *) {
             FocusTimerLiveActivity()
+            PizzaDeliveryWidget()
         }
     }
 }
